@@ -4,10 +4,10 @@ public class TV {
 	boolean on = false;
 	public TV() {
 	}
-	public void returnOn() {
+	public void turnOn() {
 		on = false;
 	}
-	public void returnOff() {
+	public void turnOff() {
 		on = false;
 	}
 	public void setChannel(int newChannel) {
