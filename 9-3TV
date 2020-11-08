@@ -5,7 +5,7 @@ public class TV {
 	public TV() {
 	}
 	public void turnOn() {
-		on = false;
+		on = true;
 	}
 	public void turnOff() {
 		on = false;
