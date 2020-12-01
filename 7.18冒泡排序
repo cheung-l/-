@@ -19,7 +19,7 @@ public class BubbleSort {
 			}
 			System.out.print(num[i] + " ");
 		}
-		System.out.print("\n");
+	
 	}
 
 }
