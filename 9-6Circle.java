@@ -1,3 +1,4 @@
+
 public class Circle {
 
 	/**The radius of the circle */
@@ -12,6 +13,10 @@ public class Circle {
 		numberOfObject++;
 	}
 	
+	Circle (double newRadius){
+		radius = newRadius;
+		numberOfObject++;
+	}
 	/**Return numberOfObject */
 	static int getNumberOfObjects() {
 		return numberOfObject;
