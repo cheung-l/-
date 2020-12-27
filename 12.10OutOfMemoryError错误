@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class NFE {
+	public static void main(String[] args) {
+		ArrayList<Double>h = new ArrayList<Double>();
+		double i = 114514;
+		while(true) {
+			i++;
+			try {
+				h.add(i);
+			}catch(OutOfMemoryError k) {
+				System.out.println("OutOfMemoryError");
+				System.exit(1);
+			}
+		}
+	}
+}
